@@ -6,4 +6,6 @@ import matplotlib.pyplot as plt
 #import numpy as np
 
 
-data =yf.downlaod("NG=F", start="2022-01-01")
+data =yf.download("NG=F", start="2022-01-01")
+print(data.head())
+
