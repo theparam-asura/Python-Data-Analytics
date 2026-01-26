@@ -11,6 +11,9 @@ import numpy as np
 
 data =yf.download("NG=F", start="2022-01-01")
 
+
+
+
 predicted_price = 2.50
 volatility = 0.15
 
